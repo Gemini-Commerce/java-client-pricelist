@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -77,6 +76,10 @@ src/main/java/GeminiCommerce_Pricelist/auth/ApiKeyAuth.java
 src/main/java/GeminiCommerce_Pricelist/auth/Authentication.java
 src/main/java/GeminiCommerce_Pricelist/auth/HttpBasicAuth.java
 src/main/java/GeminiCommerce_Pricelist/auth/HttpBearerAuth.java
+src/main/java/GeminiCommerce_Pricelist/auth/OAuth.java
+src/main/java/GeminiCommerce_Pricelist/auth/OAuthFlow.java
+src/main/java/GeminiCommerce_Pricelist/auth/OAuthOkHttpClient.java
+src/main/java/GeminiCommerce_Pricelist/auth/RetryingOAuth.java
 src/main/java/org/openapitools/client/api/PriceListApi.java
 src/main/java/org/openapitools/client/model/AbstractOpenApiSchema.java
 src/main/java/org/openapitools/client/model/ListPriceListsRequestFilter.java
