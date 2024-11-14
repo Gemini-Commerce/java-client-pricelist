@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**pricelists**| [**List<ListPriceListsResponsePriceList>**](ListPriceListsResponsePriceList.md) |   | [optional]
+**pricelists**| [**List<ListPriceListsResponsePriceList>**](ListPriceListsResponsePriceList.md) |   | [optional] [default to new ArrayList<>()]
 **nextPageToken**| **String** |   | [optional]
 
 

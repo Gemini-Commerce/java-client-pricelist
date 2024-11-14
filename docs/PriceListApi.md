@@ -29,11 +29,11 @@ Allows the creation of a new price list with specified details such as code, nam
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -101,11 +101,11 @@ Deletes specified items from a price list based on their unique identifiers.
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -173,11 +173,11 @@ Fetches detailed information about items, including historical price data, for a
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -245,11 +245,11 @@ Returns information about a particular price list identified by tenant ID and pr
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -317,11 +317,11 @@ Retrieves information about a specific price list using the unique code associat
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -389,11 +389,11 @@ Fetches a paginated list of items associated with a particular price list.
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -461,11 +461,11 @@ Retrieves the current prices of specified items considering the provided context
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -533,11 +533,11 @@ Retrieves a paginated list of detailed price items, including historical data, f
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -605,11 +605,11 @@ Retrieves a list of price lists based on optional filters such as name, code, an
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -675,11 +675,11 @@ public class Example {
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -745,11 +745,11 @@ Updates or creates items for a given price list, allowing bulk modifications.
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {
@@ -817,11 +817,11 @@ Modifies the attributes of an existing price list based on the provided payload 
 ### Example
 ```java
 // Import classes:
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.auth.*;
-import GeminiCommerce_Pricelist.models.*;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.auth.*;
+import GeminiCommerce.Pricelist.models.*;
 import org.openapitools.client.api.PriceListApi;
 
 public class Example {

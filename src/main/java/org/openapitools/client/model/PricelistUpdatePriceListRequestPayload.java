@@ -41,19 +41,18 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
 
-import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import GeminiCommerce_Pricelist.JSON;
+import GeminiCommerce.Pricelist.JSON;
 
 /**
  * PricelistUpdatePriceListRequestPayload
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-03-01T16:31:03.730775696Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-14T11:57:49.290625851Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class PricelistUpdatePriceListRequestPayload {
   public static final String SERIALIZED_NAME_IS_ACTIVE = "isActive";
   @SerializedName(SERIALIZED_NAME_IS_ACTIVE)
@@ -77,15 +76,15 @@ public class PricelistUpdatePriceListRequestPayload {
 
   public static final String SERIALIZED_NAME_SEGMENTS = "segments";
   @SerializedName(SERIALIZED_NAME_SEGMENTS)
-  private List<String> segments;
+  private List<String> segments = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_MARKETS = "markets";
   @SerializedName(SERIALIZED_NAME_MARKETS)
-  private List<String> markets;
+  private List<String> markets = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CHANNELS = "channels";
   @SerializedName(SERIALIZED_NAME_CHANNELS)
-  private List<String> channels;
+  private List<String> channels = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_TYPE = "type";
   @SerializedName(SERIALIZED_NAME_TYPE)
@@ -111,10 +110,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get isActive
    * @return isActive
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getIsActive() {
     return isActive;
@@ -130,10 +129,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get isDefault
    * @return isDefault
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getIsDefault() {
     return isDefault;
@@ -149,10 +148,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get currency
    * @return currency
-  **/
+   */
   @javax.annotation.Nullable
   public PricelistCurrency getCurrency() {
     return currency;
@@ -168,10 +167,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get vatIncluded
    * @return vatIncluded
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getVatIncluded() {
     return vatIncluded;
@@ -187,10 +186,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get deliveredDutyPaid
    * @return deliveredDutyPaid
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getDeliveredDutyPaid() {
     return deliveredDutyPaid;
@@ -214,10 +213,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get segments
    * @return segments
-  **/
+   */
   @javax.annotation.Nullable
   public List<String> getSegments() {
     return segments;
@@ -241,10 +240,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get markets
    * @return markets
-  **/
+   */
   @javax.annotation.Nullable
   public List<String> getMarkets() {
     return markets;
@@ -268,10 +267,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get channels
    * @return channels
-  **/
+   */
   @javax.annotation.Nullable
   public List<String> getChannels() {
     return channels;
@@ -287,10 +286,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get type
    * @return type
-  **/
+   */
   @javax.annotation.Nullable
   public PricelistPriceListType getType() {
     return type;
@@ -306,10 +305,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get isSystem
    * @return isSystem
-  **/
+   */
   @javax.annotation.Nullable
   public Boolean getIsSystem() {
     return isSystem;
@@ -325,10 +324,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @javax.annotation.Nullable
   public String getName() {
     return name;
@@ -344,10 +343,10 @@ public class PricelistUpdatePriceListRequestPayload {
     return this;
   }
 
-   /**
+  /**
    * Get description
    * @return description
-  **/
+   */
   @javax.annotation.Nullable
   public String getDescription() {
     return description;
@@ -357,6 +356,50 @@ public class PricelistUpdatePriceListRequestPayload {
     this.description = description;
   }
 
+  /**
+   * A container for additional, undeclared properties.
+   * This is a holder for any undeclared properties as specified with
+   * the 'additionalProperties' keyword in the OAS document.
+   */
+  private Map<String, Object> additionalProperties;
+
+  /**
+   * Set the additional (undeclared) property with the specified name and value.
+   * If the property does not already exist, create it otherwise replace it.
+   *
+   * @param key name of the property
+   * @param value value of the property
+   * @return the PricelistUpdatePriceListRequestPayload instance itself
+   */
+  public PricelistUpdatePriceListRequestPayload putAdditionalProperty(String key, Object value) {
+    if (this.additionalProperties == null) {
+        this.additionalProperties = new HashMap<String, Object>();
+    }
+    this.additionalProperties.put(key, value);
+    return this;
+  }
+
+  /**
+   * Return the additional (undeclared) property.
+   *
+   * @return a map of objects
+   */
+  public Map<String, Object> getAdditionalProperties() {
+    return additionalProperties;
+  }
+
+  /**
+   * Return the additional (undeclared) property with the specified name.
+   *
+   * @param key name of the property
+   * @return an object
+   */
+  public Object getAdditionalProperty(String key) {
+    if (this.additionalProperties == null) {
+        return null;
+    }
+    return this.additionalProperties.get(key);
+  }
 
 
   @Override
@@ -379,12 +422,13 @@ public class PricelistUpdatePriceListRequestPayload {
         Objects.equals(this.type, pricelistUpdatePriceListRequestPayload.type) &&
         Objects.equals(this.isSystem, pricelistUpdatePriceListRequestPayload.isSystem) &&
         Objects.equals(this.name, pricelistUpdatePriceListRequestPayload.name) &&
-        Objects.equals(this.description, pricelistUpdatePriceListRequestPayload.description);
+        Objects.equals(this.description, pricelistUpdatePriceListRequestPayload.description)&&
+        Objects.equals(this.additionalProperties, pricelistUpdatePriceListRequestPayload.additionalProperties);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(isActive, isDefault, currency, vatIncluded, deliveredDutyPaid, segments, markets, channels, type, isSystem, name, description);
+    return Objects.hash(isActive, isDefault, currency, vatIncluded, deliveredDutyPaid, segments, markets, channels, type, isSystem, name, description, additionalProperties);
   }
 
   @Override
@@ -403,6 +447,7 @@ public class PricelistUpdatePriceListRequestPayload {
     sb.append("    isSystem: ").append(toIndentedString(isSystem)).append("\n");
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
+    sb.append("    additionalProperties: ").append(toIndentedString(additionalProperties)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -442,24 +487,16 @@ public class PricelistUpdatePriceListRequestPayload {
     openapiRequiredFields = new HashSet<String>();
   }
 
- /**
-  * Validates the JSON Element and throws an exception if issues found
-  *
-  * @param jsonElement JSON Element
-  * @throws IOException if the JSON Element is invalid with respect to PricelistUpdatePriceListRequestPayload
-  */
+  /**
+   * Validates the JSON Element and throws an exception if issues found
+   *
+   * @param jsonElement JSON Element
+   * @throws IOException if the JSON Element is invalid with respect to PricelistUpdatePriceListRequestPayload
+   */
   public static void validateJsonElement(JsonElement jsonElement) throws IOException {
       if (jsonElement == null) {
         if (!PricelistUpdatePriceListRequestPayload.openapiRequiredFields.isEmpty()) { // has required fields but JSON element is null
           throw new IllegalArgumentException(String.format("The required field(s) %s in PricelistUpdatePriceListRequestPayload is not found in the empty JSON string", PricelistUpdatePriceListRequestPayload.openapiRequiredFields.toString()));
-        }
-      }
-
-      Set<Map.Entry<String, JsonElement>> entries = jsonElement.getAsJsonObject().entrySet();
-      // check to see if the JSON string contains additional fields
-      for (Map.Entry<String, JsonElement> entry : entries) {
-        if (!PricelistUpdatePriceListRequestPayload.openapiFields.contains(entry.getKey())) {
-          throw new IllegalArgumentException(String.format("The field `%s` in the JSON string is not defined in the `PricelistUpdatePriceListRequestPayload` properties. JSON: %s", entry.getKey(), jsonElement.toString()));
         }
       }
         JsonObject jsonObj = jsonElement.getAsJsonObject();
@@ -506,6 +543,28 @@ public class PricelistUpdatePriceListRequestPayload {
            @Override
            public void write(JsonWriter out, PricelistUpdatePriceListRequestPayload value) throws IOException {
              JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
+             obj.remove("additionalProperties");
+             // serialize additional properties
+             if (value.getAdditionalProperties() != null) {
+               for (Map.Entry<String, Object> entry : value.getAdditionalProperties().entrySet()) {
+                 if (entry.getValue() instanceof String)
+                   obj.addProperty(entry.getKey(), (String) entry.getValue());
+                 else if (entry.getValue() instanceof Number)
+                   obj.addProperty(entry.getKey(), (Number) entry.getValue());
+                 else if (entry.getValue() instanceof Boolean)
+                   obj.addProperty(entry.getKey(), (Boolean) entry.getValue());
+                 else if (entry.getValue() instanceof Character)
+                   obj.addProperty(entry.getKey(), (Character) entry.getValue());
+                 else {
+                   JsonElement jsonElement = gson.toJsonTree(entry.getValue());
+                   if (jsonElement.isJsonArray()) {
+                     obj.add(entry.getKey(), jsonElement.getAsJsonArray());
+                   } else {
+                     obj.add(entry.getKey(), jsonElement.getAsJsonObject());
+                   }
+                 }
+               }
+             }
              elementAdapter.write(out, obj);
            }
 
@@ -513,29 +572,50 @@ public class PricelistUpdatePriceListRequestPayload {
            public PricelistUpdatePriceListRequestPayload read(JsonReader in) throws IOException {
              JsonElement jsonElement = elementAdapter.read(in);
              validateJsonElement(jsonElement);
-             return thisAdapter.fromJsonTree(jsonElement);
+             JsonObject jsonObj = jsonElement.getAsJsonObject();
+             // store additional fields in the deserialized instance
+             PricelistUpdatePriceListRequestPayload instance = thisAdapter.fromJsonTree(jsonObj);
+             for (Map.Entry<String, JsonElement> entry : jsonObj.entrySet()) {
+               if (!openapiFields.contains(entry.getKey())) {
+                 if (entry.getValue().isJsonPrimitive()) { // primitive type
+                   if (entry.getValue().getAsJsonPrimitive().isString())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsString());
+                   else if (entry.getValue().getAsJsonPrimitive().isNumber())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsNumber());
+                   else if (entry.getValue().getAsJsonPrimitive().isBoolean())
+                     instance.putAdditionalProperty(entry.getKey(), entry.getValue().getAsBoolean());
+                   else
+                     throw new IllegalArgumentException(String.format("The field `%s` has unknown primitive type. Value: %s", entry.getKey(), entry.getValue().toString()));
+                 } else if (entry.getValue().isJsonArray()) {
+                     instance.putAdditionalProperty(entry.getKey(), gson.fromJson(entry.getValue(), List.class));
+                 } else { // JSON object
+                     instance.putAdditionalProperty(entry.getKey(), gson.fromJson(entry.getValue(), HashMap.class));
+                 }
+               }
+             }
+             return instance;
            }
 
        }.nullSafe();
     }
   }
 
- /**
-  * Create an instance of PricelistUpdatePriceListRequestPayload given an JSON string
-  *
-  * @param jsonString JSON string
-  * @return An instance of PricelistUpdatePriceListRequestPayload
-  * @throws IOException if the JSON string is invalid with respect to PricelistUpdatePriceListRequestPayload
-  */
+  /**
+   * Create an instance of PricelistUpdatePriceListRequestPayload given an JSON string
+   *
+   * @param jsonString JSON string
+   * @return An instance of PricelistUpdatePriceListRequestPayload
+   * @throws IOException if the JSON string is invalid with respect to PricelistUpdatePriceListRequestPayload
+   */
   public static PricelistUpdatePriceListRequestPayload fromJson(String jsonString) throws IOException {
     return JSON.getGson().fromJson(jsonString, PricelistUpdatePriceListRequestPayload.class);
   }
 
- /**
-  * Convert an instance of PricelistUpdatePriceListRequestPayload to an JSON string
-  *
-  * @return JSON string
-  */
+  /**
+   * Convert an instance of PricelistUpdatePriceListRequestPayload to an JSON string
+   *
+   * @return JSON string
+   */
   public String toJson() {
     return JSON.getGson().toJson(this);
   }

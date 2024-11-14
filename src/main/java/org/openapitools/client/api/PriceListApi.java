@@ -13,14 +13,14 @@
 
 package org.openapitools.client.api;
 
-import GeminiCommerce_Pricelist.ApiCallback;
-import GeminiCommerce_Pricelist.ApiClient;
-import GeminiCommerce_Pricelist.ApiException;
-import GeminiCommerce_Pricelist.ApiResponse;
-import GeminiCommerce_Pricelist.Configuration;
-import GeminiCommerce_Pricelist.Pair;
-import GeminiCommerce_Pricelist.ProgressRequestBody;
-import GeminiCommerce_Pricelist.ProgressResponseBody;
+import GeminiCommerce.Pricelist.ApiCallback;
+import GeminiCommerce.Pricelist.ApiClient;
+import GeminiCommerce.Pricelist.ApiException;
+import GeminiCommerce.Pricelist.ApiResponse;
+import GeminiCommerce.Pricelist.Configuration;
+import GeminiCommerce.Pricelist.Pair;
+import GeminiCommerce.Pricelist.ProgressRequestBody;
+import GeminiCommerce.Pricelist.ProgressResponseBody;
 
 import com.google.gson.reflect.TypeToken;
 

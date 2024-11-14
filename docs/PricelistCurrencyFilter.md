@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**currencies**| [**List<PricelistCurrency>**](PricelistCurrency.md) |   | [optional]
+**currencies**| [**List<PricelistCurrency>**](PricelistCurrency.md) |   | [optional] [default to new ArrayList<>()]
 **condition**| [**PricelistFilterCondition**](PricelistFilterCondition.md) |  for more information please, see Model/PricelistFilterCondition.php  | [optional] [default to PricelistFilterCondition.IN]
 
 

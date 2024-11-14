@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**items**| [**List<PricelistGetFullPriceItem>**](PricelistGetFullPriceItem.md) |   | [optional]
+**items**| [**List<PricelistGetFullPriceItem>**](PricelistGetFullPriceItem.md) |   | [optional] [default to new ArrayList<>()]
 **nextPageToken**| **String** |   | [optional]
 
 

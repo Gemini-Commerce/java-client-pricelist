@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **currency**| [**PricelistCurrency**](PricelistCurrency.md) |  for more information please, see Model/PricelistCurrency.php  | [default to PricelistCurrency.XXX]
 **segment**| **String** |   | [optional]
-**segments**| **List<String>** |   | [optional]
+**segments**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **market**| **String** |   | [optional]
 **channel**| **String** |   | [optional]
 

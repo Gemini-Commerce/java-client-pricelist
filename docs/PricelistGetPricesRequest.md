@@ -7,7 +7,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **tenantId**| **String** |   | [optional]
-**itemsGrn**| **List<String>** |   | [optional]
+**itemsGrn**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **context**| [**PricelistPriceContext**](PricelistPriceContext.md) |   | [optional]
 
 

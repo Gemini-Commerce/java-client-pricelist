@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **itemGrn**| **String** |   | [optional]
 **basePrice**| [**PricelistMoney**](PricelistMoney.md) |   | [optional]
-**priceItems**| [**List<PricelistSetPriceListItemPrice>**](PricelistSetPriceListItemPrice.md) |   | [optional]
+**priceItems**| [**List<PricelistSetPriceListItemPrice>**](PricelistSetPriceListItemPrice.md) |   | [optional] [default to new ArrayList<>()]
 **hasTierPrices**| **Boolean** |   | [optional]
 
 

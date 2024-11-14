@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **createdAt**| [**OffsetDateTime**](OffsetDateTime.md) |   | [optional]
 **updatedAt**| [**OffsetDateTime**](OffsetDateTime.md) |   | [optional]
 **currency**| [**PricelistCurrency**](PricelistCurrency.md) |  for more information please, see Model/PricelistCurrency.php  | [optional] [default to PricelistCurrency.XXX]
-**prices**| [**List<PricelistGetFullPriceItemPrice>**](PricelistGetFullPriceItemPrice.md) |   | [optional]
+**prices**| [**List<PricelistGetFullPriceItemPrice>**](PricelistGetFullPriceItemPrice.md) |   | [optional] [default to new ArrayList<>()]
 **hasTierPrices**| **Boolean** |   | [optional]
 
 

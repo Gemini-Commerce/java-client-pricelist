@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**markets**| **List<String>** |   | [optional]
+**markets**| **List<String>** |   | [optional] [default to new ArrayList<>()]
 **condition**| [**PricelistFilterCondition**](PricelistFilterCondition.md) |  for more information please, see Model/PricelistFilterCondition.php  | [optional] [default to PricelistFilterCondition.IN]
 
 

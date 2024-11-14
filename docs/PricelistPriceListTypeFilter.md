@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**pricelistTypes**| [**List<PricelistPriceListType>**](PricelistPriceListType.md) |   | [optional]
+**pricelistTypes**| [**List<PricelistPriceListType>**](PricelistPriceListType.md) |   | [optional] [default to new ArrayList<>()]
 **condition**| [**PricelistFilterCondition**](PricelistFilterCondition.md) |  for more information please, see Model/PricelistFilterCondition.php  | [optional] [default to PricelistFilterCondition.IN]
 
 
