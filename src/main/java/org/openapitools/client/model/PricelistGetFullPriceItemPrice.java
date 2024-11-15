@@ -50,7 +50,7 @@ import GeminiCommerce.Pricelist.JSON;
 /**
  * PricelistGetFullPriceItemPrice
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:07:56.394094327Z[Etc/UTC]", comments = "Generator version: 7.9.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-11-15T16:40:42.167069490Z[Etc/UTC]", comments = "Generator version: 7.9.0")
 public class PricelistGetFullPriceItemPrice {
   public static final String SERIALIZED_NAME_PRICE = "price";
   @SerializedName(SERIALIZED_NAME_PRICE)
